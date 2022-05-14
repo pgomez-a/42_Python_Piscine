@@ -1,14 +1,14 @@
-### ¿Qué es pip?
-Pip es el gestor de paquetes estándar de Python. A grandes rasgos, es responsable de la intalación y gestión de todos aquellos paquetes que no forman parte de la librería estándar de Python. También se encarga de gestionar las dependencias de estos paquetes.
+# 42_Python_Piscine
 
-    pip install package_name             # Para instalar un paquete junto con sus dependencias
-    pip uninstall package-name           # Para eliminar un paquete. No se eliminan las dependencias
-    pip install -r requirements.txt      # Para instalar las dependencias especificadas en el archivo requirements.txt
-    pip list                             # Para listar los paquetes instalados junto con su versión
-    pip freeze                           # Para crear el archivo requirements.txt
-    pip install --upgrade package_name   # Para actualizar un paquete
-    pip check                            # Para comprobar que todos los paquetes instalados son compatibles
-    pip show package_name                # Para obtener información sobre un paquete específico
-    pip --help                           # Para obtener información relevante sobre el uso de pip
+This is a **Python Bootcamp** developed by the [**42-AI team**](https://www.42ai.fr). This bootcamp is available to everyone who has access to the Internet. For this reason, instead of explaining the important concepts that I have covered during this bootcamp (which I usually do with all projects), I have decided to let you find them for yourself. This team has done a brilliant job creating this bootcamp, so if they haven't provided information on such concepts I'm not one to provide them.
 
-Cuando vamos a trabajar con un proyecto ya existente escrito en Python, es frecuente encontrarnos con un archivo "requirements.txt". Este archivo se utiliza para especificar los paquetes que se deben instalar para poder trabajar en el proyecto correctamente. De esta forma, cada línea del archivo indica el nombre de un paquete a instalar junto con la versión de dicho paquete.
+**If you want to learn more about IT topics, visit my website:** [**IA Notes**](https://ia-notes.com/)
+
+To access the Python Bootcamp go to the official [**42-AI repository**](https://github.com/42-AI/bootcamp_python). There you have all the information you need to get started. Good luck!
+
+### Table of contents
+- **Module00 - Basics 1**
+- **Module01 - Basics 2**
+- **Module02 - Basics 3**
+- **Module03 - Numpy**
+- **Module04 - Pandas**
