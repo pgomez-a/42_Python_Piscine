@@ -38,9 +38,3 @@ class Book:
             self.last_update = datetime.now()
             return True
         return False
-
-    def __str__(self):
-        """Return the string to print with the book info"""
-        txt = ""
-        txt += str(self.last_update)
-        return txt
