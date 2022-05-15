@@ -58,6 +58,7 @@ class Vector:
         return output
 
     def __radd__(self, other):
+        """Reverses addition for 2 Vectors"""
         return self + other
 
     def __sub__(self, other):
@@ -72,6 +73,7 @@ class Vector:
         return output
 
     def __rsub(self, other):
+        """Reverses substraction for 2 Vectors"""
         return self - other
 
     def __mul__(self, scalar):
@@ -86,7 +88,7 @@ class Vector:
         return output
 
     def __rmul__(self, scalar):
-        """Reverse multiplication for Vector and scalar"""
+        """Reverses multiplication for Vector and scalar"""
         return self * scalar
 
     def __truediv__(self, scalar):
@@ -104,6 +106,6 @@ class Vector:
         return output
 
     def __rtruediv__(self, scalar):
-        """Reverse ficision for Vector and scalar"""
+        """Reverses division for Vector and scalar"""
         print("NotImplementedError: Division of a scalar by a Vector is not defined here.")
         return False
